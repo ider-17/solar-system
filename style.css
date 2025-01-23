@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    border: dashed white;
+    border-radius: 50%;
+    position: relative;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/galaxy.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.mars-system {
+    width: 80%;
+    height: 80%;
+}
+
+#sun {
+    width: 100px;
+    height: 100px;
+    background-image: url(./assets/sun.png);
+    background-size: cover;
+    position: absolute;
+    top: 460px;
+    left: 552px;
+}
+
+#neptunes-line {
+    width: 850px;
+    height: 850px;
+    animation: neptuneline 1648s infinite linear; 
+    position: absolute;
+}
+
+#uranus-line {
+    width: 750px;
+    height: 750px;
+    animation: uranusline 840s infinite linear;
+}
+
+#saturn-line {
+    width: 650px;
+    height: 650px;
+    animation: saturnline 294.6s infinite linear;
+}
+
+#jupiter-line {
+    width: 550px;
+    height: 550px;
+    animation: jupiterline 118.6s infinite linear;
+}
+
+#mars-line {
+    width: 400px;
+    height: 400px;
+    animation: marsline 68.7s infinite linear;
+}
+
+#earth-line {
+    width: 300px;
+    height: 300px;
+    animation: earthline 36.5s infinite linear;
+}
+
+#venus-line {
+    width: 200px;
+    height: 200px;
+    animation: venusline 22.5s infinite linear;
+}
+
+#mercury-line {
+    width: 150px;
+    height: 150px;
+    animation: mercuryline 8.8s infinite linear;
+}
+
+@keyframes mercuryline {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes venusline {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes earthline {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes marsline {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes jupiterline {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes saturnline {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes uranusline {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes neptuneline {
+    0% {transform: rotate(0)}
+    100% {transform: rotate(360deg);}
+}
+
+#neptune {
+    width: 33px;
+    height: 33px;
+    background-image: url(./assets/neptune.png);
+    background-size: cover;
+    position: absolute;
+    top: -17px;
+    animation: neptune  0.671s infinite linear;
+}
+#uranus {
+    width: 35px;
+    height: 35px;
+    background-image: url(./assets/uranus.png);
+    background-size: cover;
+    position: absolute;
+    top: -17px;
+    animation: uranus 0.717s infinite linear;
+}
+
+#saturn {
+    width: 40px;
+    height: 40px;
+    background-image: url(./assets/saturn.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -20px;
+    animation: saturn 0.445s infinite linear;
+}
+
+#jupiter {
+    width: 45px;
+    height: 45px;
+    background-image: url(./assets/jupiter.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -22px;
+    animation: jupiter 0.41s infinite linear;
+}
+
+#mars {
+    width: 17px;
+    height: 17px;
+    background-image: url(./assets/mars.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -9px;
+    animation: mars 1.025s infinite linear;
+}
+
+#earth {
+    width: 23px;
+    height: 23px;
+    background-image: url(./assets/earth.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -12px;
+    animation: earth 1s infinite linear;
+}
+
+#venus {
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/venus.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -10px;
+    animation: venus 24.3s infinite linear;
+}
+
+#mercury {
+    width: 15px;
+    height: 15px;
+    background-image: url(./assets/mercury.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: -8px;
+    animation: mercury 5.86s infinite linear;
+}
+
+@keyframes mercury {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes earth {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes mars {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes jupiter {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes saturn {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes uranus {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes neptune {
+    0% {transform: rotate(0)}
+    100% {transform: rotate(360deg)}
+}
+ 
