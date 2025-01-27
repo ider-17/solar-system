@@ -34,8 +34,6 @@ body {
     background-image: url(./assets/sun.png);
     background-size: cover;
     position: absolute;
-    top: 460px;
-    left: 552px;
 }
 
 #neptunes-line {
